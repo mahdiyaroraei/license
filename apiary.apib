@@ -9,6 +9,24 @@ License is a simple API allowing consumers to buy and register applications.
 
 ### Request application [POST]
 
+Create user if not exist. Create license with app unique id and user id.
+
++ Request (application/json)
+
+        {
+            "email": "mahdiyar.oraei@gmail.com",
+            "app": "period_tracker"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "license_id": 1245
+        }
+        
+
+### Goto Zarinpal
+
 ## Questions Collection [/questions]
 
 ### List All Questions [GET]
