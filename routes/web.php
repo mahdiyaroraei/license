@@ -14,3 +14,10 @@
 $app->get('/', function () use ($app) {
     return $app->version();
 });
+
+$app->post('apps' , 'AppsController@add');
+$app->post('buy' , 'BuyController@buy');
+$app->get('pay/{license_id}' , 'BuyController@pay');
+$app->get('payed/{license_id}' , 'BuyController@payed');
+$app->post('activation' , 'BuyController@activation');
+$app->post('deactive' , 'BuyController@deactive');
