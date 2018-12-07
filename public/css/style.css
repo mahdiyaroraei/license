@@ -1,0 +1,32 @@
+.merkbox {
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  width: 50%;
+   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+}
+
+.merktitel {
+    background-color: skyblue;
+    margin-bottom: 0rem;
+    min-height: 1rem;
+    direction: rtl;
+    padding: 0.5rem 0.5rem 0.3rem 1rem;
+}
+
+.merktitel p {
+    color: white;
+    font-family: 'IRANSans', serif;
+    font-size: 1.5rem;
+}
+
+.merktext {
+     padding: 1rem 1rem 3rem 1rem;
+    text-align: right;
+}
+
+.merktext p, ul {
+  font-family: 'IRANSans';
+}
